@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guardian Angel Security USA</title>
+  <style>
+    :root { --blue:#143f78; --dark:#0b1f36; --gold:#c9a227; --light:#f5f7fb; --white:#ffffff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; color:#1f2937; background:var(--light); line-height:1.6; }
+    .wrap { max-width:1100px; margin:auto; padding:0 22px; }
+    header { background:var(--dark); color:white; padding:18px 0; }
+    .top { display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; }
+    .brand { font-weight:800; font-size:1.25rem; letter-spacing:.4px; }
+    .tag { color:var(--gold); font-weight:700; }
+    .hero { background:linear-gradient(135deg, var(--blue), var(--dark)); color:white; padding:70px 0; text-align:center; }
+    .hero h1 { font-size:clamp(2.3rem, 7vw, 4.6rem); margin:0 0 16px; line-height:1.1; }
+    .hero p { font-size:1.25rem; max-width:760px; margin:12px auto; }
+    .buttons { margin-top:30px; display:flex; justify-content:center; gap:14px; flex-wrap:wrap; }
+    .btn { display:inline-block; padding:13px 20px; border-radius:999px; text-decoration:none; font-weight:800; }
+    .gold { background:var(--gold); color:#111827; }
+    .white { background:white; color:var(--blue); }
+    section { padding:54px 0; }
+    h2 { color:var(--blue); font-size:2rem; margin:0 0 18px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; }
+    .card { background:white; padding:24px; border-radius:16px; box-shadow:0 6px 20px rgba(0,0,0,.08); border-top:5px solid var(--gold); }
+    .card h3 { margin-top:0; color:var(--dark); }
+    .layers { background:white; }
+    .layer-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; padding:0; list-style:none; }
+    .layer-list li { background:var(--light); border-left:5px solid var(--gold); padding:14px 16px; border-radius:10px; font-weight:700; }
+    .trust { background:var(--blue); color:white; text-align:center; }
+    .trust h2 { color:white; }
+    .trust p { color:var(--gold); font-size:1.25rem; font-weight:800; }
+    .contact { text-align:center; }
+    footer { background:var(--dark); color:white; text-align:center; padding:24px; }
+    @media (max-width:600px) { .hero { padding:52px 0; } section { padding:42px 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap top">
+      <div class="brand">Guardian Angel Security USA</div>
+      <div class="tag">Always Watching. Always Ready.</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1>Protecting Faith.<br />Protecting People.</h1>
+        <p>Professional church security consulting focused on assessment, preparation, training, and layered protection for houses of worship.</p>
+        <div class="buttons">
+          <a class="btn gold" href="mailto:cheeburgjones@gmail.com">Request a Free Security Assessment</a>
+          <a class="btn white" href="#services">Our Services</a>
+          <a class="btn white" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <h2>Why Churches Choose Us</h2>
+        <div class="grid">
+          <div class="card"><h3>Risk Assessments</h3><p>We help identify vulnerabilities before an emergency happens.</p></div>
+          <div class="card"><h3>Emergency Planning</h3><p>We help churches prepare clear, practical response plans.</p></div>
+          <div class="card"><h3>Security Training</h3><p>We support staff, ushers, volunteers, and church leadership with preparedness guidance.</p></div>
+          <div class="card"><h3>Ongoing Consulting</h3><p>We help improve security over time while respecting the ministry environment.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="layers">
+      <div class="wrap">
+        <h2>Seven Layers of Seamless Security™</h2>
+        <p>A structured approach designed to protect the flock while keeping the church welcoming, peaceful, and ministry-focused.</p>
+        <ul class="layer-list">
+          <li>1. Perimeter Hardening</li>
+          <li>2. Entry Control</li>
+          <li>3. Compartmentalization</li>
+          <li>4. White Fog Response</li>
+          <li>5. Sensor & Camera Network</li>
+          <li>6. Undercover Armed Parishioner</li>
+          <li>7. Guardian Angel Command Center</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="wrap">
+        <h2>Security That Respects the Sanctuary</h2>
+        <p>Professional • Confidential • Budget-Conscious • Ministry Focused</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <h2>Schedule Your Complimentary Church Security Consultation Today</h2>
+        <p>Email: <strong>cheeburgjones@gmail.com</strong></p>
+        <p>Founder: Chad Jones</p>
+        <a class="btn gold" href="mailto:cheeburgjones@gmail.com">Email Guardian Angel Security</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Guardian Angel Security USA • Always Watching. Always Ready.
+  </footer>
+</body>
+</html>
